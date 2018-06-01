@@ -123,3 +123,7 @@ alias update='apt update'
 alias shorten="bit shorten"
 alias bit-v="bit version"
 alias bit-h="bit help"
+
+# zshrc 
+alias zshconfig="vim ~/.zshrc"
+alias zshsource="source ~/.zshrc"
