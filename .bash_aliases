@@ -127,3 +127,7 @@ alias bit-h="bit help"
 # zshrc 
 alias zshconfig="vim ~/.zshrc"
 alias zshsource="source ~/.zshrc"
+
+# python
+alias pip-install="pip install -r requirements.txt"
+
