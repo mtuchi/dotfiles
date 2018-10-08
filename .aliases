@@ -16,7 +16,6 @@ alias gds='g diff --staged'
 alias gftp='g ftp'
 alias gl='g log'
 alias glo='g log --oneline --decorate'
-# alias glone='g clone'
 alias gout='g checkout'
 alias gs='g status'
 alias gr='g remote'
@@ -25,6 +24,7 @@ alias fetch='g fetch'
 alias pull='g pull'
 alias push='g push'
 alias clone='g clone'
+alias nah="g reset --hard && g clean -df"
 
 # Git Flow
 alias gf='g flow'
@@ -106,10 +106,6 @@ alias route-list='art route:list'
 alias echo-start='laravel-echo-server start'
 
 alias qwork='art queue:work'
-
-
-# ssh to irabu.xyz as root
-alias getirabu='ssh roo@irabu.xyz'
 
 # open current directory in code
 alias here='code .'
